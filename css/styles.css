@@ -25,6 +25,38 @@ h1 {
     height: 100vh;
 }
 .mariobros {
-    display: flex;
-    align-items:flex-end;
+    position: relative;
+    top: 77%;
+}
+
+.mariomotion {
+    position: relative;
+    animation: mario 20s infinite;
+}
+@keyframes mario {
+ 0% {top:700px; left: 0px;}
+8% {top:700px; left: 110px;}
+11% {top: 600px;left: 110px;}
+20% {top: 600px; left: 160px;}
+25% {top: 580px; left: 160px;}
+30% {top: 580px; left: 250px;}
+                               /*335% {top: 210px; left: 580px; rotate: 0deg;}
+    40% {top: 280px; left: 580px; rotate: 90deg;}
+    45% {top: 280px; left: 730px; rotate: 0deg;}
+    50% {top: 358px; left: 730px; rotate: 90deg;}
+    55% {top: 358px; left: 880px; rotate: 0deg;}
+    60% {top: 358px; left: 880px; rotate: 0deg;}
+    65% {top: 430px; left: 880px; rotate: 90deg;}
+    70% {top: 430px; left: 1040px; rotate: 0deg;}
+    75% {top: 500px; left: 1040px; rotate: 90deg;}
+    80% {top: 500px; left: 1110px; rotate: 0deg;}
+    85% {top: 650px; left: 1110px; rotate: 90deg;}
+    90% {top: 650px; left: 1180px; rotate: 0deg;}
+    95% {top: 580px; left: 1180px; rotate: -90deg;}
+    100% {top: 580px; left: 1232px; rotate: 0deg;}
+
+
+
+
+100% {top: 100px;}*/
 }
