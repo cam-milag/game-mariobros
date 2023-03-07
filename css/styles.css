@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-color: rgb(99, 142, 223);
+    background-color: rgb(0, 0, 0);
     color: rgb(247, 239, 239);
 }
 
@@ -29,6 +29,12 @@ h1 {
     position: relative;
     top: 77%;
 }
+.audio { 
+    width: 10%;
+    box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
+    border-radius: 90px;
+    transform: scale(1.05);
+  }
 
 .mariomotion {
     position: relative;
@@ -49,8 +55,8 @@ h1 {
 60% {top: 75%; left: 33%;}
 80% {top: 75%; left: 71%;}
 85% {top: 63%; left: 71%;}
-90% {top: 75%; left: 90%;}
-100% {top: 75%; left: 100%;}
+90% {top: 75%; left: 71%;}
+100% {top: 75%; left: 95%;}
 
 /* 
 
