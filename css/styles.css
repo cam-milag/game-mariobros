@@ -14,9 +14,10 @@ body {
     src: url(../fonts/Super\ Mario\ Bros..ttf);
 }
 
-h1 {
-    font-family: marioBros;
-    font-size: 5rem;
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .fondo {
     background-image: url(../assets/escenario.png);
@@ -26,7 +27,7 @@ h1 {
     height: 100vh;
 }
 .mariobros {
-    position: relative;
+    position: absolute;
     top: 77%;
 }
 .audio { 
